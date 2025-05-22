@@ -1,0 +1,42 @@
+.contactus {
+    display: flex;
+    justify-content: space-between; /* To create space between columns */
+}
+
+.contactus .contactus-details {
+    flex: 1; /* This will make the columns take up equal width */
+    padding: 0px 10px 0px 0px; /* Padding added to the right side */
+}
+
+.contactus .contactus-details p:first-child {
+    margin-top: 0; /* Remove top margin from the first <p> element */
+    margin-bottom: 0; /* Remove bottom margin from the first <p> element */
+}
+
+.contactus .contactus-details h5:nth-child(2) {
+    margin: 16px 0px 14px; /* Set top margin to 16px for the second <p> element */
+}
+
+.contactus h5 {
+    color: green;
+}
+
+@media screen and (max-width: 900px) {
+    .contactus {
+        flex-direction: column; /* Stack columns vertically on smaller screens */
+    }
+
+    .contactus .contactus-details {
+        width: 100%; /* Take up full width on smaller screens */
+        padding: 10px 10px 10px 0px; /* Padding added to the right side */
+    }
+
+    .contactus .contactus-details p:first-child {
+        margin-top: 0; /* Remove top margin from the first <p> element on smaller screens */
+        margin-bottom: 0; /* Remove bottom margin from the first <p> element on smaller screens */
+    }
+
+    .contactus .contactus-details h5:nth-child(2) {
+        margin: 16px 0px 14px; /* Set top margin to 16px for the second <p> element */
+    }
+}
