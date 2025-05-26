@@ -274,16 +274,12 @@ margin-right: 30px;
 header nav .nav-tools .icon .icon-cart1{
   position:relative;
 }
-header nav .nav-tools p .icon-zero{
-  background-color: red;
-  border-radius: 50%;
-  position: absolute;
-  top:15%;
-  margin-left: -30px;
-  cursor: pointer;
-  height:17px;
-  width:17px;
-  align-items: center;
+header nav .nav-tools #text{
+  background-color: rgb(227, 36, 36);
+  
+  
+
+ 
  
 
 
