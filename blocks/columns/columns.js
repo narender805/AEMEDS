@@ -15,4 +15,34 @@ export default function decorate(block) {
       }
     });
   });
+let checkOutList = [];
+const addToCartButton = document.querySelector('.button');
+addToCartButton.addEventListener('click', () =>
+  {
+    const yourCart = document.createElement('div');
+    yourCart.classList.add('cart');
+    const heading = document.createElement('h3';
+      heading.textContent = 'Your Cart';
+      const productlist = document.createElement('ul');
+      productlist.classList.add('productlist');
+      const checkout = document.createElement('div');
+    checkout.classList.add('checkout');
+    const total = document.createElement('div');
+    total.classList.add('total');
+    const small = document.createElement('small');
+    small.textContent = 'Total: $0.00';
+    total.textContent = '0';
+    const close = document.createElement('div')
+    close.classList.add('close');
+    close.textContent = 'close';
+    checkout.appendChild(total);
+    checkout.appendChild(close);
+    yourCart.appendChild(heading);
+    yourCart.appendChild(productlist);
+    yourCart.appendChild(checkout);
+  });
+    
+  function onInIt(){
+
+  }
 }

@@ -585,6 +585,7 @@ function decorateBlock(block) {
   }
 }
 
+
 /**
  * Decorates all blocks in a container element.
  * @param {Element} main The container element

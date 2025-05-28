@@ -168,4 +168,23 @@ export default async function decorate(block) {
   navWrapper.className = 'nav-wrapper';
   navWrapper.append(nav);
   block.append(navWrapper);
+  
+  const cartIcon = block.querySelector('.icon-cart1');
+
+  if (cartIcon) {
+    cartIcon.addEventListener('click', () => {
+      document.body.classList.add('active');
+    });
+  }
+
+  const close = block.querySelector('.close');
+
+  if (close) {
+    close.addEventListener('click', () => {
+      document.body.classList.remove('active');
+    });
+  }
+
+
 }
+

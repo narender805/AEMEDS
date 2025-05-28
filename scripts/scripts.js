@@ -133,6 +133,17 @@ function loadDelayed() {
   // load anything that can be postponed to the latest here
 }
 
+export default function init() {
+  document.addEventListener('DOMContentLoaded', () => {
+    const cartIcon = document.querySelector('icon icon-cart1');
+    if (cartIcon) {
+      cartIcon.addEventListener('click', () => {
+        document.body.classList.add('active');
+      });
+    }
+  });
+}
+
 async function loadPage() {
   await loadEager(document);
   await loadLazy(document);
@@ -140,4 +151,3 @@ async function loadPage() {
 }
 
 loadPage();
-
