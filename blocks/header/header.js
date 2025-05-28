@@ -124,6 +124,11 @@ export default async function decorate(block) {
     const section = nav.children[i];
     if (section) section.classList.add(`nav-${c}`);
   });
+  const navTools = nav.querySelector('.nav-tools');
+  const spanElement = document.createElement('span');
+  spanElement.innerHTML="0";
+  spanElement.classList.add('quantity');
+  navTools.appendChild(spanElement);
 
   const navBrand = nav.querySelector('.nav-brand');
   const brandLink = navBrand.querySelector('.button');
