@@ -1,6 +1,6 @@
 footer {
   padding: 2rem;
-  background-color:green;
+  background-color:#556B2F;
   font-size: var(--body-font-size-s);
   color:white;
 }
@@ -23,17 +23,17 @@ footer .footer p {
  }
 
  footer .section{
-  width:16.6667%;
+  width:20%;
   box-sizing: border-box;
   float:left;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   padding-left:20px;
  }
 
  footer .section:last-child{
   width:100%;
   align-items:center;
-  border-top:  1px solid white;
+  border-top:  1px solid ghostwhite;
   padding-top:20px;
  }
 
