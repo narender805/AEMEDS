@@ -185,6 +185,19 @@ export default async function decorate(block) {
     });
   }
 
+   // Expose global update function
+  window.updateHeaderCartQty = function (qty) {
+    const quantitySpan = document.querySelector('.quantity');
+    if (quantitySpan) {
+      quantitySpan.textContent = qty;
+    }
+  };
+   // On page load, restore from storage
+  const savedCount = parseInt(localStorage.getItem('cartItemCount'), 10);
+  if (!isNaN(savedCount)) {
+    window.updateHeaderCartQty(savedCount);
+  }
+
 
 }
 

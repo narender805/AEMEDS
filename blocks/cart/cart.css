@@ -3,17 +3,17 @@
     top:0;
     left:100%;
     width:400px;
-    background: black;
+    background: rgb(187, 214, 134);
     height: 100vh;
     transition:0.5s;
-    z-index: 100;
+    z-index: 2;
 
 }
 
 .cart h3{
     font-weight:100;
     text-align:center;
-    color:#fff;
+    color:black;
     margin-top:10px;
 
 }
@@ -45,3 +45,32 @@
 .active .cart {
     left: calc(100% - 400px);
 }
+.cart .productlist {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cart .productlist li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+  
+  visibility: visible;
+}
+
+.cart .productlist li div {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.cart .productlist picture img {
+  max-width: 100px;
+  height: auto;
+  display: block;
+}
+

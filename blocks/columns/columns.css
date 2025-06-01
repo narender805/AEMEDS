@@ -19,6 +19,14 @@
   display: block;
 }
 
+#add-to-cart{
+  cursor: pointer;
+  color:green;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+
 @media (width >= 900px) {
   .columns > div {
     align-items: center;
