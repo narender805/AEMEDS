@@ -27,6 +27,15 @@
   padding-left: 10px;
 }
 
+.minus{
+  cursor:pointer;
+  color: black;
+ }
+.plus{
+  cursor:pointer;
+  color: black;
+}
+
 @media (width >= 900px) {
   .columns > div {
     align-items: center;

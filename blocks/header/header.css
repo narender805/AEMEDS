@@ -1,6 +1,6 @@
 /* header and nav layout */
 header .nav-wrapper {
-  background-color: rgb(214, 228, 188);
+  background-color:#556B2F;
   width: 100%;
   z-index: 2;
   position: fixed;
@@ -145,8 +145,9 @@ header .nav-brand {
 }
 
 header nav .nav-brand img {
-  width: 90px;
+  width: 60px;
   height: 50px;
+  border-radius: 70%;;
 }
 
 /* sections */
@@ -192,6 +193,7 @@ header nav .nav-sections ul > li > ul > li {
     align-self: unset;
   }
 
+
   header nav .nav-sections .nav-drop {
     position: relative;
     padding-right: 16px;
@@ -227,7 +229,7 @@ header nav .nav-sections ul > li > ul > li {
   header nav .nav-sections .default-content-wrapper > ul > li {
     flex: 0 1 auto;
     position: relative;
-    color: green;
+    color: white;
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li > ul {
@@ -242,7 +244,7 @@ header nav .nav-sections ul > li > ul > li {
     width: 200px;
     top: 150%;
     padding: 16px;
-    background-color: white;
+    background-color:#556B2F ;
     white-space: initial;
   }
 
@@ -267,6 +269,7 @@ header nav .nav-sections ul > li > ul > li {
 header nav .nav-tools {
   grid-area: tools;
   position:relative;
+  color:white;
 }
 header nav .nav-tools .icon {
 cursor:pointer;
