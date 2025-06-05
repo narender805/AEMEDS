@@ -24,7 +24,14 @@
   color:green;
   justify-content: center;
   align-items: center;
-  padding-left: 10px;
+  border: 1.75px solid green;
+  background-color: whitesmoke;
+  padding-left:20px;
+  padding-right:20px;
+  padding-top:5px;
+  padding-bottom:5px;
+  display:inline;
+  border-radius: 12%;
 }
 
 .minus{
