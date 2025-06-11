@@ -201,7 +201,7 @@
       bottom: 0;
       right: 0;
       width: 40%; /* Make the overlay cover half of the container */
-      background-color: rgb(119, 173, 39);
+      background-color: rgb(118, 145, 78);
       z-index: 1; /* Ensure overlay appears above the image */
     }
 
