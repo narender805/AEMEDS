@@ -5,6 +5,9 @@
 
 .columns img {
   width: 100%;
+  height: 50%;
+  float:top;
+  padding-top:20px;
 }
 
 .columns > div > div {
@@ -45,7 +48,6 @@
 
 @media (width >= 900px) {
   .columns > div {
-    align-items: center;
     flex-direction: unset;
     gap: 24px;
   }
